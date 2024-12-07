@@ -11,7 +11,7 @@ const curvada = () => {
           width={100}
           height={100}
         />
-        <h1>Remada Curvada</h1>
+        <h1>Remada Curvada </h1>
         <p>3 series x 12 repeticiones</p>
     </div>
   )
