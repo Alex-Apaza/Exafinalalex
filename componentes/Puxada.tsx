@@ -1,10 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
+import "./puxada.css"
 
 
 const puxada = () => {
   return (
-    <div className='conteiner'>
+    <div className='container'>
         <Image
           className='imagen'
           src='/puxada.png'
@@ -12,9 +13,10 @@ const puxada = () => {
           width={100}
           height={100}
         />
-        <h1>Puxada Frontal</h1>
-        <p>3 series x 12 repeticiones</p>
-      
+        <div className='datos'>
+        <h1 className='titulo'>Puxada Frontal</h1>
+        <p className='series'>3 series x 12 repeticiones</p>
+      </div>
     </div>
   )
 }

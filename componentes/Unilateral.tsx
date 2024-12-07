@@ -12,8 +12,8 @@ const Unilateral = () => {
           height={100}
         />
         <div className='datos'>
-        <h1>Ramada Unilateral</h1>
-        <p>3 series x 12 repeticiones</p>
+        <h1 className='titulo'>Ramada Unilateral</h1>
+        <p className='series'>3 series x 12 repeticiones</p>
         </div>
     </div>
   )
